@@ -1,0 +1,27 @@
+.main{
+    margin-bottom: 100px;
+    
+}
+
+body{
+    color: red;
+}
+
+.local, .temp{
+    font-size: 1.5rem;
+}
+
+#simbolo{
+    color: blue;
+    font-weight: bold;
+    font-size: 20px;
+}
+#simbolo:hover{
+    cursor: pointer;
+}
+
+.marco_t{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
