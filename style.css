@@ -1,14 +1,49 @@
 .main{
-    margin-bottom: 100px;
+    margin-bottom: 40px;
     
 }
 
 body{
-    color: red;
+    display: grid;
+    justify-content: center;
 }
 
-.local, .temp{
-    font-size: 1.5rem;
+.divBody{
+    border: 1px solid rgb(213, 203, 203);
+    padding: 2rem;
+}
+
+#submit{
+    width: 80px;
+}
+
+h1{
+    font-size: 2rem;
+}
+.search{
+    width: 300px;
+}
+
+.local{
+    font-size: 1.2rem;
+    margin-top: 5px;
+}
+img#imgCondition{
+    border: 1px salmon dotted;
+    border-radius: 50%;
+    padding: 5px;
+    width: 4rem;
+    margin: 10px 0;
+}
+
+.marco_t{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+.temp{
+    font-size: 26px;
+    font-weight: bolder;
 }
 
 #simbolo{
@@ -20,8 +55,41 @@ body{
     cursor: pointer;
 }
 
-.marco_t{
-    display: flex;
-    gap: 1rem;
+.rain{
+    font-size: 1.2rem;
+    margin: 5px 0;
+    background-color: salmon;
+    padding: 3px 0;
+}
+
+
+.pronoExt{
+    margin-top: 10px;
+    color: black;
+    font-size: 18px;
+    font-family: cursive;
+    width: fit-content;
+    position: relative;
+    left: 150px;
+}
+
+.pronoExt:hover{
+    cursor: pointer;
+}
+
+.divContent{
+    display: grid;
+    grid-template-columns: repeat(4, 8rem);
     align-items: center;
+    justify-items: center;
+    width:fit-content;
+}
+
+div.divContent > h3{
+    color: rgb(197, 191, 191);
+    text-decoration: underline;
+    margin-bottom: 8px;
+}
+div.divContent > img{
+    width: 2.5rem;
 }
